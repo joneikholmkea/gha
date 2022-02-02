@@ -33,4 +33,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          echo test, and deploy your project.
+          echo Jon was here.
+      - name: Step one
+        run: env | sort
+        
