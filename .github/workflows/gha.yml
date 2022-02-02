@@ -36,4 +36,6 @@ jobs:
           echo Jon was here.
       - name: Step one
         run: env | sort
+      - name: Step two
+        uses: docker://hello-world:latest
         
